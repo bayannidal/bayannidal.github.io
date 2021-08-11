@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import GlobalStyle from './styles/GlobalStyle';
-import { BrowserRouter, HashRouter } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <Router>
 
       <App />
 
-    </HashRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
