@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>sal</h1>
-    </div>
+    <AppStyled>
+      <Sidebar></Sidebar>
+    </AppStyled>
   );
 }
 
+const AppStyled = styled.div`
+background-color: red;
+`;
 export default App;
