@@ -10,22 +10,22 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to='/home' activeClassName='active-class'>Home</NavLink>
+                    <NavLink to='/' replace activeClassName='active-class' exact>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/about' activeClassName='active-class'>About</NavLink>
+                    <NavLink to='/about' replace activeClassName='active-class' exact>About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/resume' activeClassName='active-class'>Resume</NavLink>
+                    <NavLink to='/resume' replace activeClassName='active-class' exact>Resume</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/portofolios' activeClassName='active-class'>Portofolios</NavLink>
+                    <NavLink to='/portofolios' replace activeClassName='active-class' exact>Portofolios</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/blogs' activeClassName='active-class'>Blogs</NavLink>
+                    <NavLink to='/blogs' replace activeClassName='active-class' exact>Blogs</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/contact' activeClassName='active-class'>Contact</NavLink>
+                    <NavLink to='/contact' replace activeClassName='active-class' exact>Contact</NavLink>
                 </li>
             </ul>
             <footer className='footer'>
@@ -69,14 +69,19 @@ border-right:1px solid var(--border-color);
         text-align: center;
         .active-class {
             background-color: var(--primary-color);
+            color: var(--white-color);
         }
         li {
             display: block;
             a {
                 display: block;
-                padding: 0.2rem 0;
+                padding: 0.45rem 0;
                 position: relative;
                 z-index: 10;
+                text-transform: uppercase;
+                font-weight: 600;
+                transition: ease-in-out 0.4s all;
+                letter-spacing: 1px;
                 &:hover {
                     cursor: pointer;
                 }
@@ -88,7 +93,6 @@ border-right:1px solid var(--border-color);
                     width: 0;
                     height: 50%;
                     background-color: var(--primary-color);
-;
                     transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
                     z-index: 3;
                     opacity: .25;

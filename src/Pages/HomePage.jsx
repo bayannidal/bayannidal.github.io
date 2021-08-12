@@ -9,10 +9,10 @@ function HomePage() {
     return (
         <HomePageStyle>
             <div className="p-particles-js">
-                <Particle></Particle>
+                <Particle />
             </div>
             <div className="typography">
-                <h1> Hi I'm <span>Nidal Bayan</span></h1>
+                <h1> Hi, I'm <span>Nidal Bayan</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, ipsa. Ab placeat facere excepturi sit, quos saepe. Atque, dolor sint.</p>
                 <div className="icons">
                     <a href='https://www.linkedin.com/in/nidal-bayan-417481198/' className="icon i-linkedin">
@@ -70,6 +70,19 @@ position: relative;
             }
             svg {
                 margin: .5rem;
+            }
+        }
+        .i-github {
+            &:hover {
+                border: 2px solid rgb(240,246,251);
+                color: rgb(240,246,251);
+            }
+    
+        }
+        .i-instagram{
+            &:hover {
+                border: 2px solid rgb(190,0,157);
+                color: rgb(190,0,157);
             }
         }
     }

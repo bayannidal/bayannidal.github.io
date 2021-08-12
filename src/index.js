@@ -8,9 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
     <Router>
-
       <App />
-
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
