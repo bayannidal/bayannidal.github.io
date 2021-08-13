@@ -1,13 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
-import Avatar from '../img/img04.jpg'
+import A from '../img/img04.jpg'
+import B from '../img/img02.jpg'
+import C from '../img/img05.jpg'
+import D from '../img/img03.jpg'
 import PrimaryButton from './PrimaryButton'
 
 function ImageSection() {
     return (
         <ImageSectionStyle>
             <div className="left-content">
-                <img src={Avatar} alt="" />
+                <img src={A} alt="" />
+                <img src={B} alt="" />
+                <img src={C} alt="" />
+                <img src={D} alt="" />
             </div>
             <div className="right-content">
                 <h4>I am <span>Nidal Bayan</span></h4>
@@ -44,6 +50,7 @@ margin-top: 5rem;
 display: flex;
 .left-content {
     width: 100%;
+    height: 10vh;
     img {
         width: 55%;
         border-radius: 10px;
@@ -51,7 +58,7 @@ display: flex;
         transition: ease-in-out 0.4s;
         transition-delay:100ms ;
         object-fit: cover;
-
+        height: 100%;
     }
     img:hover {
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
