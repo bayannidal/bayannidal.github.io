@@ -16,12 +16,7 @@ function App() {
     <div className="app">
       <Sidebar />
       <MainContentStyle>
-        <div className='lines'>
-          <div className='line-1'></div>
-          <div className='line-2'></div>
-          <div className='line-3'></div>
-          <div className='line-4'></div>
-        </div>
+
 
         <Switch>
           <Route path="/" exact>
@@ -52,7 +47,7 @@ function App() {
 
 const MainContentStyle = styled.main`
 position: relative;
-margin-left: 16.3rem;
+margin-left: 10rem;
 min-height: 100vh;
 
 .lines {

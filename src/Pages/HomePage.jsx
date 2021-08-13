@@ -8,12 +8,19 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 function HomePage() {
     return (
         <HomePageStyle>
+
+            <div className='lines'>
+                <div className='line-1'></div>
+                <div className='line-2'></div>
+                <div className='line-3'></div>
+                {/* <div className='line-4'></div> */}
+            </div>
             <div className="p-particles-js">
                 <Particle />
             </div>
             <div className="typography">
                 <h1> Hi, I'm <span>Nidal Bayan</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, ipsa. Ab placeat facere excepturi sit, quos saepe. Atque, dolor sint.</p>
+                <p>Welcome to my home! Here I present my creativity and presonality.</p>
                 <div className="icons">
                     <a href='https://www.linkedin.com/in/nidal-bayan-417481198/' className="icon i-linkedin">
                         <LinkedInIcon />
