@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.js": "/react-deploy/static/js/main.72760dc8.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.72760dc8.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.6046768e.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.6046768e.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.4990de6f.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.4990de6f.js.map",
-    "static/js/2.255eaef4.chunk.js": "/react-deploy/static/js/2.255eaef4.chunk.js",
-    "static/js/2.255eaef4.chunk.js.map": "/react-deploy/static/js/2.255eaef4.chunk.js.map",
+    "static/js/2.80de015f.chunk.js": "/react-deploy/static/js/2.80de015f.chunk.js",
+    "static/js/2.80de015f.chunk.js.map": "/react-deploy/static/js/2.80de015f.chunk.js.map",
     "index.html": "/react-deploy/index.html",
-    "static/js/2.255eaef4.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.255eaef4.chunk.js.LICENSE.txt",
+    "static/js/2.80de015f.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.80de015f.chunk.js.LICENSE.txt",
+    "static/media/Angular.ff43dec6.png": "/react-deploy/static/media/Angular.ff43dec6.png",
+    "static/media/JS.37683312.jpg": "/react-deploy/static/media/JS.37683312.jpg",
+    "static/media/React.da790228.jpg": "/react-deploy/static/media/React.da790228.jpg",
+    "static/media/Vue.cd186b35.jpeg": "/react-deploy/static/media/Vue.cd186b35.jpeg",
     "static/media/avatar.746613a8.jpg": "/react-deploy/static/media/avatar.746613a8.jpg",
     "static/media/css.3644e608.svg": "/react-deploy/static/media/css.3644e608.svg",
     "static/media/html.bfe202ac.svg": "/react-deploy/static/media/html.bfe202ac.svg",
@@ -19,7 +23,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4990de6f.js",
-    "static/js/2.255eaef4.chunk.js",
-    "static/js/main.72760dc8.chunk.js"
+    "static/js/2.80de015f.chunk.js",
+    "static/js/main.6046768e.chunk.js"
   ]
 }
