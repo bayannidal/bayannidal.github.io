@@ -13,11 +13,11 @@ function ServicesSection() {
             <ServicesSectionStyle>
                 <Title title={'Services'} span={'services'}></Title>
                 <div className="services">
-                    <ServiceCard image={js} title={'JavaScript'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
+                    <ServiceCard image={js} title={'JS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
                     <div className="mid-card">
-                        <ServiceCard image={css} title={'Css'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
+                        <ServiceCard image={css} title={'CSS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
                     </div>
-                    <ServiceCard image={html} title={'Html'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
+                    <ServiceCard image={html} title={'HTML'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
                 </div>
             </ServicesSectionStyle>
         </InnerLayout>

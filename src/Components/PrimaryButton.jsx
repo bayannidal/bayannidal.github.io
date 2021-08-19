@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 function PrimaryButton({ title }) {
-    return (
-        <PrimaryButtonStyle>
-            {title}
-        </PrimaryButtonStyle>
-    )
+	return (
+		<PrimaryButtonStyle>
+			{title}
+		</PrimaryButtonStyle>
+	)
 }
 const PrimaryButtonStyle = styled.a`
 background-color: var(--primary-color);
@@ -20,6 +20,7 @@ position: relative;
 transition: all .4s ease-in-out;
 border-radius: 10px;
 transform: scale(1);
+
 &:hover {
 	animation: pulse 2s infinite;
 
@@ -33,7 +34,7 @@ transform: scale(1);
 	}
 
 	70% {
-		transform: scale(1);
+		transform: scale(0.98);
 		box-shadow: 0 0 0 10px var(--primary-color);
 	}
 

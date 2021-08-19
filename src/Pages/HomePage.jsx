@@ -16,13 +16,13 @@ function HomePage() {
                 <h1> Hi, I'm <span>Nidal Bayan</span></h1>
                 <p>Welcome to my home! Here I present my creativity and presonality.</p>
                 <div className="icons">
-                    <a href='https://www.linkedin.com/in/nidal-bayan-417481198/' className="icon i-linkedin">
+                    <a href='https://www.linkedin.com/in/nidal-bayan-417481198/' target="_blank" className="icon i-linkedin">
                         <LinkedInIcon />
                     </a >
-                    <a href='https://www.instagram.com/bayannidal/' className="icon i-instagram">
+                    <a href='https://www.instagram.com/bayannidal/' target="_blank" className="icon i-instagram">
                         <InstagramIcon />
                     </a >
-                    <a href='https://github.com/bayannidal' className="icon i-github">
+                    <a href='https://github.com/bayannidal' target="_blank" className="icon i-github">
                         <GitHubIcon />
                     </a >
                 </div>

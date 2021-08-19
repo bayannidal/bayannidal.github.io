@@ -11,9 +11,7 @@ function AboutPage() {
             <AboutStyle>
                 <Title title={'About me'} span={'About me'} />
                 <ImageSection />
-                <ServicesSection>
-
-                </ServicesSection>
+                <ServicesSection />
             </AboutStyle>
         </MainLayout>
     )
