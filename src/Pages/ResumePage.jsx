@@ -1,11 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
+import Skills from '../Components/Skills'
 
 function ResumePage() {
     return (
         <div>
-            <h1>saka</h1>
+            <Skills />
         </div>
     )
 }
-
+const ResumePageStyle = styled.div`
+`;
 export default ResumePage
