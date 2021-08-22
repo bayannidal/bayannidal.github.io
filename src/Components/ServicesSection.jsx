@@ -6,6 +6,7 @@ import Title from './Title'
 import js from '../img/js.svg'
 import css from '../img/css.svg'
 import html from '../img/html.svg'
+import react from '../img/react.svg'
 
 function ServicesSection() {
     return (
@@ -14,12 +15,14 @@ function ServicesSection() {
                 <Title title={'Services'} span={'services'}></Title>
                 <div className="services">
                     <ServiceCard image={js} title={'JS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
-                    <div className="mid-card">
-                        <ServiceCard image={css} title={'CSS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
-                    </div>
+                    <ServiceCard image={css} title={'CSS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
                     <ServiceCard image={html} title={'HTML'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
+                    <ServiceCard image={react} title={'REACT JS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
+
                 </div>
+
             </ServicesSectionStyle>
+
         </InnerLayout>
     )
 }
@@ -30,10 +33,11 @@ margin-top: 5rem;
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
-    .mid-card {
-        margin: 0 1.2rem;
-    }
+
 }
+
+
+
 
 `;
 

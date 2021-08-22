@@ -19,11 +19,25 @@ const ProgressBarStyle = styled.div`
     .progress-bar{
       display:flex;
       align-items: center;
+      p {
+          padding-right:1.1rem ;
+        }
       .progress {
           position: relative;
           width: 100%;
           height: .4rem;
           background-color: var(--border-color);
+          border-radius: 10px;
+
+          span {
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              height: 100%;
+              background-color: var(--primary-color);
+          border-radius: 10px;
+
+          }
       }
     }
 `;

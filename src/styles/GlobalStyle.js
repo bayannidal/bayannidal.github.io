@@ -36,6 +36,15 @@ body {
     color: var(--font-light-color);
 
 }
+
+body::-webkit-scrollbar {
+    width: 9px;
+    background-color: #383838;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #6b6b6b;
+}
 a {
     font-family: inherit;
     color: inherit;
@@ -60,6 +69,7 @@ h6 {
             font-size: 1.2rem;
             padding-bottom: .6rem;
         }
+
 `;
 
 export default GlobalStyle;
