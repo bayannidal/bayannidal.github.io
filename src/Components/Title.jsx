@@ -40,8 +40,8 @@ padding-bottom: .1rem;
 }
 span {
     font-weight: 900;
-    color: rgba(25,29,43,.43);
-    font-size: 5rem;
+    color: var( --subtitle-dark-color);
+    font-size: 4rem;
     position: absolute;
     left: 0;
     top: 30%;

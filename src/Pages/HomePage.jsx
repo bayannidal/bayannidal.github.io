@@ -4,6 +4,7 @@ import Particle from '../Components/Particle'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import Header from '../Components/Header';
 
 function HomePage() {
     return (
@@ -32,15 +33,16 @@ function HomePage() {
 
     )
 }
-const HomePageStyle = styled.header`
+const HomePageStyle = styled.div`
 width: 100%;
 height: 100vh;
 position: relative;
 
 .p-particles-js {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 .typography {
@@ -63,8 +65,8 @@ position: relative;
             cursor: pointer;
             transition: all .4s ease-in-out;
             &:hover {
-                border: 2px solid var(--primary-color);
-                color: var(--primary-color);
+                border: 2px solid #007bff;
+                color: #007bff;
             }
             &:not(:last-child) {
                 margin-right: 1rem ;
@@ -75,8 +77,8 @@ position: relative;
         }
         .i-github {
             &:hover {
-                border: 2px solid rgb(240,246,251);
-                color: rgb(240,246,251);
+                border: 2px solid #461738;
+                color: #461738;
             }
     
         }
