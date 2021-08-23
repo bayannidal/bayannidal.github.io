@@ -25,16 +25,19 @@ const ServiceCardStyle = styled.div`
     transition: .4s ease-in-out;
     
     
-
-   :not(:last-child){
+    @media screen and (min-width: 1000px) {
+        :not(:last-child){
     margin-right: 1.2rem;
-
    };
+    }
+
     
    @media screen and (max-width: 1000px) {
+   
+
+
     :not(:last-child){
     margin-bottom: 1.2rem;
-
    };
     }
     &:hover {
@@ -56,7 +59,7 @@ const ServiceCardStyle = styled.div`
 
            &::after {
                content: '';
-               width: 4rem;
+               width: 100%;
                background-color: var(--border-color);
                height: 3px;
                position: absolute;

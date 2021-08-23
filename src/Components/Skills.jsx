@@ -23,6 +23,8 @@ function Skills() {
 
 const SkillsStyle = styled.section`
     .skills{
+    text-align: center;
+
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 2rem;

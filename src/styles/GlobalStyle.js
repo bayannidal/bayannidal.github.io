@@ -80,6 +80,14 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
     font-size: 1.2rem;
+    
+}
+
+@media screen and (max-width:500px) {
+    p{
+        font-size: .8rem;
+
+    }
 }
 
 body {

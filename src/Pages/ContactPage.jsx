@@ -65,10 +65,20 @@ function ContactPage() {
     )
 }
 const ContactPageStyle = styled.section`
+    text-align: center;
+   
+
     .contact-section {
         display:grid;
         grid-template-columns: repeat(2,1fr);
         grid-column-gap: 2rem;
+        @media screen and (max-width:978px) {
+        grid-template-columns: repeat(1,1fr);
+        .form-field {
+            margin-bottom: 2rem;
+        }
+        
+    }
         .right-content {
             display: flex;
             flex-direction: column;
@@ -80,13 +90,23 @@ const ContactPageStyle = styled.section`
                 font-size: 1.8rem;
             }
         }
+
+       
         .form {
             width: 100%;
+            @media screen and (max-width:589px) {
+            width: 80%;
+            margin: auto;
+            }
+            @media screen and (max-width:429px) {
+            width: 70%;
+            /* margin: auto; */
+            }
             .form-field {
                 margin-top: 2rem;
                 position: relative;
-                 width: 100%;
-
+                width: 100%;
+  
                 label {
                     position: absolute;
                     left: 20px;

@@ -29,17 +29,17 @@ function Resume() {
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
-                    <SmallTitle icon={education} title={'Education'} />
+                    <SmallTitle icon={education} title={'Courses'} />
                 </div>
                 <div className="resume-content ">
                     <ResumeItem year={'2019 - 2020'}
-                        title={'International Business and Management'}
-                        subTitle={'Rotterdam Business School'}
+                        title={'Intro in IT'}
+                        subTitle={'Informal School of It'}
                         text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit.'}
                     />
                     <ResumeItem year={'2020 - Present'}
-                        title={'Economics and International Affairs'}
-                        subTitle={'Babes Bolyai University'}
+                        title={'Web Development (JavaScript)'}
+                        subTitle={'Informal School of It'}
                         text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad iste cumque quo labore harum maiores.'}
                     />
                 </div>

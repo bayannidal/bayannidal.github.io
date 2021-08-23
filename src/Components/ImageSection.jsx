@@ -29,6 +29,7 @@ function ImageSection() {
                         <p>Occupation</p>
                         <p>Location</p>
                     </div>
+
                     <div className="info">
                         <p>: Nidal Bayan</p>
                         <p>: 21</p>
@@ -49,15 +50,21 @@ function ImageSection() {
 const ImageSectionStyle = styled.div`
 margin-top: 5rem;
 display: flex;
-
 @media screen and (max-width: 1000px) {
     flex-direction: column;
     .left-content{
             margin-bottom: 2rem;
         }
     }
+    @media screen and (max-width: 500px) {
+    .left-content {
+    text-align: center;
+
+    }
+    }
 .left-content {
     width: 100%;
+    margin-right: 1rem;
     img {
         height: 100px;
         width: 95%;
@@ -77,9 +84,13 @@ display: flex;
 .right-content {
     padding-bottom: 1.4rem;
     width: 100%;
+    @media screen and (max-width:500px) {
+        /* text-align: center; */
+    }
     h4 {
         font-size: 2rem;
         color: var(--white-color);
+        text-align: center;
         span {
            font-size: 2rem;
         }
@@ -90,14 +101,22 @@ display: flex;
     .about-info {
         display: flex;
         padding-bottom: 1.4rem;
-
+    
         .info-title {
             padding-right: 3rem;
+
             p {
                 font-weight: 600;
+                position: relative;
+                
             }
+
         }
+       
+
         .info-title, .info {
+        text-align: left;
+
             p{
                 padding: .3rem 0
             }

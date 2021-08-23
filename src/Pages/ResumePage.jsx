@@ -8,11 +8,15 @@ import { InnerLayout, MainLayout } from '../styles/Layouts'
 function ResumePage() {
     return (
         <MainLayout>
-            <Skills />
-            <Resume />
+            <ResumePageStyle>
+                <Skills />
+                <Resume />
+            </ResumePageStyle>
+
         </MainLayout>
     )
 }
 const ResumePageStyle = styled.div`
+
 `;
 export default ResumePage
