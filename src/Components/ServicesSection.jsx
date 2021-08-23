@@ -34,6 +34,18 @@ margin-top: 5rem;
     display: flex;
     justify-content: space-between;
 
+    @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    }
+
+
+    @media screen and (min-width:1204px) and (max-width: 1350px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 1.5rem;
+    
+    }
+
 }
 
 

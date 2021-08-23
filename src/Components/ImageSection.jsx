@@ -41,6 +41,7 @@ function ImageSection() {
                 <PrimaryButton title={'Download CV'} />
 
             </div>
+
         </ImageSectionStyle>
     )
 }
@@ -48,17 +49,23 @@ function ImageSection() {
 const ImageSectionStyle = styled.div`
 margin-top: 5rem;
 display: flex;
+
+@media screen and (max-width: 1000px) {
+    flex-direction: column;
+    .left-content{
+            margin-bottom: 2rem;
+        }
+    }
 .left-content {
     width: 100%;
-    height: 10vh;
     img {
-        width: 55%;
+        height: 100px;
+        width: 95%;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         transition: ease-in-out 0.4s;
         transition-delay:100ms ;
         object-fit: cover;
-        height: 100%;
     }
     img:hover {
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -69,6 +76,7 @@ display: flex;
 }
 .right-content {
     padding-bottom: 1.4rem;
+    width: 100%;
     h4 {
         font-size: 2rem;
         color: var(--white-color);
@@ -95,6 +103,7 @@ display: flex;
             }
         }
     }
+ 
 }
 
 @keyframes border-pulsate {

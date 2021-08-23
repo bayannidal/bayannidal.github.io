@@ -45,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-    --subtitle-dark-color: rgba(232, 144, 5, .05);
+    --subtitle-dark-color: rgba(232, 144, 5, .08);
     --border-pulsate-opacity-full: rgba(232, 144, 5, 1);
 
 }
@@ -67,7 +67,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-    --subtitle-dark-color: rgb(0,123,255, 0.5);
+    --subtitle-dark-color: rgb(0,123,255, 0.1);
     --border-pulsate-opacity-full: rgba(0,123,255, 1);
 
 }

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 function ServiceCard({ image, title, paragraph }) {
     return (
-        <ServiceCardStyle>
+        <ServiceCardStyle className='service-card'>
             <div className="container">
                 <img src={image} alt="" />
                 <h4>{title}</h4>
@@ -24,11 +24,19 @@ const ServiceCardStyle = styled.div`
     border-radius: 10px;
     transition: .4s ease-in-out;
     
+    
 
    :not(:last-child){
     margin-right: 1.2rem;
+
    };
     
+   @media screen and (max-width: 1000px) {
+    :not(:last-child){
+    margin-bottom: 1.2rem;
+
+   };
+    }
     &:hover {
     border-top: 8px solid var(--primary-color);
     transform: translateY(3px);
