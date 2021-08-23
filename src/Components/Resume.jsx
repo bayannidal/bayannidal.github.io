@@ -20,12 +20,12 @@ function Resume() {
                     <ResumeItem year={'2019 - 2020'}
                         title={'International Business and Management'}
                         subTitle={'Rotterdam Business School'}
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit.'}
+
                     />
                     <ResumeItem year={'2020 - Present'}
                         title={'Economics and International Affairs'}
                         subTitle={'Babes Bolyai University'}
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad iste cumque quo labore harum maiores.'}
+
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
@@ -35,12 +35,12 @@ function Resume() {
                     <ResumeItem year={'2019 - 2020'}
                         title={'Intro in IT'}
                         subTitle={'Informal School of It'}
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit.'}
+
                     />
                     <ResumeItem year={'2020 - Present'}
                         title={'Web Development (JavaScript)'}
                         subTitle={'Informal School of It'}
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad iste cumque quo labore harum maiores.'}
+
                     />
                 </div>
             </InnerLayout>

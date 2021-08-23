@@ -8,10 +8,8 @@ import { InnerLayout, MainLayout } from '../styles/Layouts'
 function ResumePage() {
     return (
         <MainLayout>
-            <ResumePageStyle>
-                <Skills />
-                <Resume />
-            </ResumePageStyle>
+            <Skills />
+            <Resume />
 
         </MainLayout>
     )

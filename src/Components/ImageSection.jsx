@@ -50,21 +50,21 @@ function ImageSection() {
 const ImageSectionStyle = styled.div`
 margin-top: 5rem;
 display: flex;
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     flex-direction: column;
     .left-content{
             margin-bottom: 2rem;
+
         }
     }
     @media screen and (max-width: 500px) {
     .left-content {
     text-align: center;
-
     }
     }
 .left-content {
-    width: 100%;
     margin-right: 1rem;
+    width: 50%;
     img {
         height: 100px;
         width: 95%;
@@ -84,9 +84,7 @@ display: flex;
 .right-content {
     padding-bottom: 1.4rem;
     width: 100%;
-    @media screen and (max-width:500px) {
-        /* text-align: center; */
-    }
+   
     h4 {
         font-size: 2rem;
         color: var(--white-color);
@@ -125,10 +123,23 @@ display: flex;
  
 }
 
-@keyframes border-pulsate {
-    0%   { border-color: rgb(0, 123, 255,0.5)}
-    50%  { border-color: rgb(0, 123, 255,0) }
-    100% { border-color: rgb(0, 123, 255,0.5) }
+@media screen and (max-width: 1200px) {
+    flex-direction: column;
+    text-align: center;
+
+    .left-content{
+            margin-bottom: 2rem;
+            width: 100%;
+            text-align: center;
+
+        }
+    }
+  
+
+    @keyframes border-pulsate {
+    0%   { border-color:var(--border-pulsate-opacity-full)}
+    50%  { border-color: var(--subtitle-dark-color)}
+    100% { border-color:var(--border-pulsate-opacity-full)}
 }
 `
 

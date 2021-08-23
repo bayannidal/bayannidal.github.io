@@ -18,9 +18,7 @@ function Navigation() {
                 <li className="nav-item">
                     <NavLink to='/resume' replace activeClassName='active-class' exact>Resume</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink to='/portofolios' replace activeClassName='active-class' exact>Portofolios</NavLink>
-                </li>
+
                 <li className="nav-item">
                     <NavLink to='/blogs' replace activeClassName='active-class' exact>Blogs</NavLink>
                 </li>
@@ -94,8 +92,8 @@ border-right:1px solid var(--border-color);
                     height: 50%;
                     background-color: var(--primary-color);
                     transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
-                    z-index: 3;
-                    opacity: .25;
+                    z-index: -1;
+                    
                 }
             }
             a:hover::before {

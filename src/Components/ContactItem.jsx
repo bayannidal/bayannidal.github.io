@@ -23,6 +23,7 @@ const ContactItemStyle = styled.div`
     display: flex;
     align-items: center;
     border-radius: 10px;
+    
 
     &:not(:last-child) {
     margin-bottom: 2rem;
@@ -46,5 +47,18 @@ const ContactItemStyle = styled.div`
         padding:.1rem 0;
         }
     }
+
+    @media screen and (max-width:449px) {
+                width: 85%;
+                margin: auto;
+             .left-content {
+                 padding: 0;
+                svg {
+                    font-size: 1rem;
+                }
+             }
+          
+              
+        }
 `;
 export default ContactItem

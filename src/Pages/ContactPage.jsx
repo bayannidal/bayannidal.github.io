@@ -13,61 +13,58 @@ function ContactPage() {
     const email = <EmailIcon />
     const location = <LocationOnIcon />
     return (
-        <MainLayout>
-            <ContactPageStyle>
-                <Title title={'Contact'} span={'contact'} />
-                <InnerLayout className={'contact-section'}>
-                    <div className="left-content">
-                        <form className='form'>
-                            <div className="contact-title">
-                                <h4>Get in touch</h4>
-                            </div>
-                            <div className="form-field">
-                                <label htmlFor="name" id='name'>Name: </label>
-                                <input type="text" id='name' />
-                            </div>
-                            <div className="form-field">
-                                <label htmlFor="email" id='email'>E-mail: </label>
-                                <input type="text" id='email' />
-                            </div>
-                            <div className="form-field">
-                                <label htmlFor="subject" id='subject'>Subject: </label>
-                                <input type="text" id='subject' />
-                            </div>
-                            <div className="text-area">
-                                <label htmlFor="text-area">Enter your Message: </label>
-                                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-                            </div>
-                            <div className="form-field">
-                                <PrimaryButton title={'Send'} />
-                            </div>
-                        </form>
-                    </div>
-                    <div className="right-content">
-                        <ContactItem
-                            icon={phone}
-                            title={'Phone'}
-                            contact={'+40 (724) 578 450'}
-                        />
-                        <ContactItem
-                            icon={email}
-                            title={'Email'}
-                            contact={'bayannidal13@gmail.com'} />
-                        <ContactItem
-                            icon={location}
-                            title={'Location'}
-                            contact={'Cluj-Napoca, Romania'}
-                        />
-                    </div>
-                </InnerLayout>
-            </ContactPageStyle>
-        </MainLayout>
+        <ContactPageStyle>
+            <Title title={'Contact'} span={'contact'} />
+            <InnerLayout className={'contact-section'}>
+                <div className="left-content">
+                    <form className='form'>
+                        <div className="contact-title">
+                            <h4>Get in touch</h4>
+                        </div>
+                        <div className="form-field">
+                            <label htmlFor="name" id='name'>Name: </label>
+                            <input type="text" id='name' />
+                        </div>
+                        <div className="form-field">
+                            <label htmlFor="email" id='email'>E-mail: </label>
+                            <input type="text" id='email' />
+                        </div>
+                        <div className="form-field">
+                            <label htmlFor="subject" id='subject'>Subject: </label>
+                            <input type="text" id='subject' />
+                        </div>
+                        <div className="text-area">
+                            <label htmlFor="text-area">Enter your Message: </label>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                        </div>
+                        <div className="form-field">
+                            <PrimaryButton title={'Send'} />
+                        </div>
+                    </form>
+                </div>
+                <div className="right-content">
+                    <ContactItem
+                        icon={phone}
+                        title={'Phone'}
+                        contact={'+40 (724) 578 450'}
+                    />
+                    <ContactItem
+                        icon={email}
+                        title={'Email'}
+                        contact={'bayannidal13@gmail.com'} />
+                    <ContactItem
+                        icon={location}
+                        title={'Location'}
+                        contact={'Cluj-Napoca, Romania'}
+                    />
+                </div>
+            </InnerLayout>
+        </ContactPageStyle>
     )
 }
 const ContactPageStyle = styled.section`
     text-align: center;
-   
-
+    padding: 5rem 1rem;
     .contact-section {
         display:grid;
         grid-template-columns: repeat(2,1fr);
@@ -80,8 +77,10 @@ const ContactPageStyle = styled.section`
         
     }
         .right-content {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+           
+       
         }
         .contact-title {
             h4 {
@@ -93,20 +92,14 @@ const ContactPageStyle = styled.section`
 
        
         .form {
+            
             width: 100%;
-            @media screen and (max-width:589px) {
-            width: 80%;
-            margin: auto;
-            }
-            @media screen and (max-width:429px) {
-            width: 70%;
-            /* margin: auto; */
-            }
+           
+         
             .form-field {
                 margin-top: 2rem;
                 position: relative;
-                width: 100%;
-  
+                width: 100%;  
                 label {
                     position: absolute;
                     left: 20px;
@@ -126,7 +119,7 @@ const ContactPageStyle = styled.section`
                     border-radius: 10px;
                 }
             }
-            textarea  {
+            textarea   {
                     background-color: transparent;
                     border: 1px solid var(--border-color);
                     outline: none;
@@ -134,8 +127,13 @@ const ContactPageStyle = styled.section`
                     color: inherit;
                     padding: 1rem;
                     width: 100%;
+                   
 
                 }
+                @media screen and (max-width:450px) {
+                 width: 70%;
+                 margin: auto;
+            }
         }
     }
 `;

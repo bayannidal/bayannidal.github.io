@@ -11,7 +11,7 @@ function HomePage() {
         <HomePageStyle>
 
             <div className="p-particles-js">
-                <Particle />
+                {/* <Particle /> */}
             </div>
             <div className="typography">
                 <h1> Hi, I'm <span>Nidal Bayan</span></h1>
