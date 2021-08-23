@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
     --subtitle-dark-color: rgba(232, 144, 5, .05);
-    --border-pulsate-opacity-full: rgba(232, 144, 5, .1);
+    --border-pulsate-opacity-full: rgba(232, 144, 5, 1);
 
 }
 
@@ -67,8 +67,8 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-    --subtitle-dark-color: rgba(25,29,43,.43);
-    --border-pulsate-opacity-full: rgba(25,29,43,1);
+    --subtitle-dark-color: rgb(0,123,255, 0.5);
+    --border-pulsate-opacity-full: rgba(0,123,255, 1);
 
 }
 
@@ -167,6 +167,13 @@ header {
 
 }
 //Nav Toggle
+
+.nav-toggle {
+    transform: translateX(0);
+    width: 100%;
+    z-index: 99;
+
+}
 
 .ham-burger-menu {
     display: none;
