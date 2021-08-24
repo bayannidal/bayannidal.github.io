@@ -4,7 +4,6 @@ import Particle from '../Components/Particle'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import Header from '../Components/Header';
 
 function HomePage() {
     return (

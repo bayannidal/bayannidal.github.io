@@ -30,6 +30,8 @@ const ProgressBarStyle = styled.div`
           border-radius: 10px;
 
           span {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
               position: absolute;
               left: 0;
               bottom: 0;

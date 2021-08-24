@@ -6,7 +6,7 @@ padding: 5rem;
     @media screen and (max-width: 642px){
         padding: 4rem;
     }
-   
+
     @media screen and (max-width: 571px){
         padding: 4rem 1rem;
     }
