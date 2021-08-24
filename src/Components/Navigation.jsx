@@ -2,6 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import avatar from '../img/avatar.jpg'
+import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
+import InfoRoundedIcon from '@material-ui/icons/InfoRounded';
+import ImportContactsRoundedIcon from '@material-ui/icons/ImportContactsRounded';
+import CreateRoundedIcon from '@material-ui/icons/CreateRounded';
+import ChatBubbleOutlineRoundedIcon from '@material-ui/icons/ChatBubbleRounded';
 function Navigation() {
     return (
         <NavigationStyle>
@@ -10,20 +15,20 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to='/' replace activeClassName='active-class' exact>Home</NavLink>
+                    <NavLink to='/' replace activeClassName='active-class' exact><HomeRoundedIcon /></NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/about' replace activeClassName='active-class' exact>About</NavLink>
+                    <NavLink to='/about' replace activeClassName='active-class' exact><InfoRoundedIcon /></NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/resume' replace activeClassName='active-class' exact>Resume</NavLink>
+                    <NavLink to='/resume' replace activeClassName='active-class' exact><ImportContactsRoundedIcon /></NavLink>
                 </li>
 
                 <li className="nav-item">
-                    <NavLink to='/blogs' replace activeClassName='active-class' exact>Blogs</NavLink>
+                    <NavLink to='/blogs' replace activeClassName='active-class' exact><CreateRoundedIcon /></NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/contact' replace activeClassName='active-class' exact>Contact</NavLink>
+                    <NavLink to='/contact' replace activeClassName='active-class' exact><ChatBubbleOutlineRoundedIcon /></NavLink>
                 </li>
             </ul>
             <footer className='footer'>
@@ -33,89 +38,130 @@ function Navigation() {
     )
 }
 const NavigationStyle = styled.nav`
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-align-items: center;
-height: 100%;
-width: 100%;
-border-right:1px solid var(--border-color);
-
-
-.avatar {
-    width: 95%;
-    border-bottom: 1px solid var(--border-color);
-    text-align: center;
-    padding: 1rem 0;
-    img {
-        width: 60%;
-        border-radius: 50%;
-        border:8px solid var(--border-color);
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-        transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
-        transition: ease-in-out 0.4s;
-    } 
-    img:hover {
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-        animation: border-pulsate 2s infinite;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            
+    
+            .avatar {
+            width: 5%;
+            text-align: center;
+            margin: 1rem 0 ;
+            @media screen and (max-width:1200px) {
+                display: none;
+            }
+            img {
+            width: 40%;
+            border-radius: 50%;
+            border:3px solid var(--border-color);
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
+            transition: ease-in-out 0.4s;
+    }
+            img:hover {
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            animation: border-pulsate 2s infinite;
 
     }
 }
 
-.nav-items {
-        width: 100%;
-        text-align: center;
-        .active-class {
-            background-color: var(--primary-color);
-            color: var(--white-color);
+            .nav-items {
+            text-align: center;
+            display: flex;
+            .active-class {
+                background-color: var(--primary-color);
+                color: var(--white-color);
+                border-radius: 10px;
+
         }
-        li {
-            display: block;
-            a {
+            li {
                 display: block;
-                padding: 0.45rem 0;
-                position: relative;
-                z-index: 10;
-                text-transform: uppercase;
-                font-weight: 600;
-                transition: ease-in-out 0.4s all;
-                letter-spacing: 1px;
-                &:hover {
-                    cursor: pointer;
+
+            a {
+            display: block;
+            padding: 0.45rem 2rem;
+            margin: 0 1rem;
+            position: relative;
+            z-index: 10;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: ease-in-out 0.4s all;
+            @media screen and (max-width:750px) {
+            padding: 0.45rem 1rem;
+            margin: 0 1rem;
+              
+
+            @media screen and (max-width:489px) {
+            padding: 0.45rem .7rem;
+            margin: 0 .7rem;
+                
+            }
+             
+            }
+            
+            @media screen and (max-width:427px) {
+            padding: 0.45rem .4rem;
+            margin: 0 .4rem;
+                
+            }
+            letter-spacing: 1px;
+            &:hover {
+                cursor: pointer;
                 }
-                &::before {
-                    content: '';
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    width: 0;
-                    height: 50%;
-                    background-color: var(--primary-color);
-                    transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
-                    z-index: -1;
+            &::before {
+                content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 50%;
+            background-color: var(--primary-color);
+            transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
+            z-index: -1;
+                border-radius: 10px;
                     
                 }
             }
             a:hover::before {
                 width: 100%;
-                height: 100%;
+            height: 100%;
             }
         }
+
+        @media screen and (max-width:1200px) {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            .nav-item {
+                svg {
+                    font-size: 1rem;
+                }
+            }
+            }
     }
-footer {
-    border-top: 1px solid var(--border-color);
-    p {
-        padding: 2rem 0;
-        font-size: 1.1rem;
-        text-align: center;
+            footer {
+                width: 15%;
+                @media screen and (max-width:1200px) {
+                display: none;
+            }
+            p {
+            padding: 2rem 1rem;
+            font-size: .9rem;
+            text-align: center;
+         
     }
 }
 
-@keyframes border-pulsate {
-    0%   { border-color:var(--border-pulsate-opacity-full)}
-    50%  { border-color: var(--subtitle-dark-color)}
-    100% { border-color:var(--border-pulsate-opacity-full)}
+            @keyframes border-pulsate {
+            0% { border-color:var(--border-pulsate-opacity-full)}
+            50%  {border-color: var(--subtitle-dark-color)}
+            100% {border-color:var(--border-pulsate-opacity-full)}
 }
 
-`;
+            `;
 export default Navigation

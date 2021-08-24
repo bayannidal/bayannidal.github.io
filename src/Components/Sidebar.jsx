@@ -11,18 +11,29 @@ function Sidebar({ navToggle }) {
 }
 
 const SidebarStyle = styled.div`
-width: 16rem;
+width: 90%;
 position: fixed;
-height: 100vh;
+height: 10vh;
 background-color: var(--sidebar-dark-color);
 overflow: hidden;
 transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
+bottom: 2rem;
+left: 50%;
+transform: translateX(-50%);
+border-radius: 30px;
+z-index: 99;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+max-height: 100px;
+&:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
 
 @media screen and (max-width:1200px) {
-    transform: translateX(-100%);
+    transform: translateY( 150%);
     z-index: 99;
 
 }
+
 
 `
 

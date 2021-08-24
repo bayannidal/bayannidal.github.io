@@ -177,9 +177,10 @@ header {
 //Nav Toggle
 
 .nav-toggle {
-    transform: translateX(0);
-    width: 100%;
+    /* width: 100%; */
     z-index: 99;
+    transform: translateY(0);
+    transform: translateX(-50%);
 
 }
 

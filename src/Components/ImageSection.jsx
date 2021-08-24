@@ -70,6 +70,7 @@ display: flex;
         width: 95%;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
         transition: ease-in-out 0.4s;
         transition-delay:100ms ;
         object-fit: cover;

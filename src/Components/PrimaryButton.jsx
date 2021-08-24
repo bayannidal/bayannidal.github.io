@@ -20,6 +20,7 @@ position: relative;
 transition: all .4s ease-in-out;
 border-radius: 10px;
 transform: scale(1);
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
 &:hover {
 	animation: pulse 2s infinite;

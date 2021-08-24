@@ -23,6 +23,8 @@ const ServiceCardStyle = styled.div`
     border-bottom: 1px solid var(--border-color);
     border-radius: 10px;
     transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
     
     
     @media screen and (min-width: 1000px) {

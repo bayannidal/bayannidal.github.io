@@ -7,7 +7,6 @@ import AboutPage from "./Pages/AboutPage";
 import ResumePage from "./Pages/ResumePage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
-import PortofoliosPage from "./Pages/PortofolioPage";
 import { Switch, Route } from 'react-router'
 //MaterialUi
 import SwitchUI from '@material-ui/core/Switch'
@@ -17,7 +16,6 @@ import { IconButton } from '@material-ui/core';
 
 //Style
 import styled from "styled-components";
-import Header from './Components/Header';
 
 
 function App() {
@@ -99,7 +97,7 @@ function App() {
 
 const MainContentStyle = styled.main`
 position: relative;
-margin-left: 16.3rem;
+/* margin-left: 16.3rem; */
 min-height: 100vh;
 @media screen and (max-width:1200px) {
     margin-left: 0;
