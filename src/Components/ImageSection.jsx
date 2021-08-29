@@ -5,6 +5,7 @@ import B from '../img/img02.jpg'
 import C from '../img/img05.jpg'
 import D from '../img/img03.jpg'
 import PrimaryButton from './PrimaryButton'
+import cv from '../data/cv.pdf'
 
 function ImageSection() {
     return (
@@ -39,7 +40,7 @@ function ImageSection() {
                         <p>: Cluj-Napoca, Romania</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download CV'} />
+                <PrimaryButton title={'Download CV'} link={cv} />
 
             </div>
 

@@ -50,12 +50,13 @@ function ContactPage() {
                     />
                     <ContactItem
                         icon={email}
-                        title={'Email'}
-                        contact={'bayannidal13@gmail.com'} />
+                        title='Email'
+                        contact='bayannidal13@gmail.com'
+                    />
                     <ContactItem
                         icon={location}
-                        title={'Location'}
-                        contact={'Cluj-Napoca, Romania'}
+                        title='Location'
+                        contact='Cluj-Napoca, Romania'
                     />
                 </div>
             </InnerLayout>

@@ -2,31 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 
 const GlobalStyle = createGlobalStyle`
-/* :root {
 
-} */
-
-/* .light-theme {
-
-    --primary-color: #007bff;
-    --primary-color-light: #057FFF;
-    --secondary-color: #6c757d;
-    --background-dark-color: #F1F1F1;
-    --background-dark-grey: #e4e4e4;
-    --border-color: #cbced8;
-    --background-light-color: #F1F1F1;
-    --background-light-color-2: rgba(3,127,255,.3);
-    --white-color: #151515;
-    --font-light-color: #313131;
-    --font-dark-color: #313131;
-    --font-dark-color-2: #151515;
-    --sidebar-dark-color: #E4E4E4;
-    --scrollbar-bg-color: #383838;
-    --scrollbar-thump-color: #6b6b6b;
-    --scrollbar-track-color: #383838;
-    --subtitle-dark-color: 
-
-} */
 .light-theme {
 
     --primary-color: #E89005;
@@ -47,7 +23,6 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
     --subtitle-dark-color: rgba(232, 144, 5, .08);
     --border-pulsate-opacity-full: rgba(232, 144, 5, 1);
-
 }
 
 .dark-theme {
@@ -69,7 +44,6 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
     --subtitle-dark-color: rgb(0,123,255, 0.1);
     --border-pulsate-opacity-full: rgba(0,123,255, 1);
-
 }
 
 * {

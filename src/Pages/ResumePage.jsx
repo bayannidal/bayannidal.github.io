@@ -9,7 +9,6 @@ function ResumePage() {
         <MainLayout>
             <Skills />
             <Resume />
-
         </MainLayout>
     )
 }
