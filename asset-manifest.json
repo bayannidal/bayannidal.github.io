@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-deploy/static/js/main.eb6ed2c2.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.eb6ed2c2.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.f849a26d.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.f849a26d.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.4990de6f.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.4990de6f.js.map",
     "static/js/2.3bc9e425.chunk.js": "/react-deploy/static/js/2.3bc9e425.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/Vue.cd186b35.jpeg": "/react-deploy/static/media/Vue.cd186b35.jpeg",
     "static/media/avatar.746613a8.jpg": "/react-deploy/static/media/avatar.746613a8.jpg",
     "static/media/css.3644e608.svg": "/react-deploy/static/media/css.3644e608.svg",
+    "static/media/cv.fe9d79b8.pdf": "/react-deploy/static/media/cv.fe9d79b8.pdf",
     "static/media/html.bfe202ac.svg": "/react-deploy/static/media/html.bfe202ac.svg",
     "static/media/img02.bd33841b.jpg": "/react-deploy/static/media/img02.bd33841b.jpg",
     "static/media/img03.3ba8dc62.jpg": "/react-deploy/static/media/img03.3ba8dc62.jpg",
@@ -25,6 +26,6 @@
   "entrypoints": [
     "static/js/runtime-main.4990de6f.js",
     "static/js/2.3bc9e425.chunk.js",
-    "static/js/main.eb6ed2c2.chunk.js"
+    "static/js/main.f849a26d.chunk.js"
   ]
 }
