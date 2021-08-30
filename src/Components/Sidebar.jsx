@@ -30,6 +30,7 @@ max-height: 100px;
 
 @media screen and (max-width:1200px) {
     transform: translateY( 150%);
+    left: 5%;
     z-index: 99;
 
 }

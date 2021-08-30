@@ -16,12 +16,14 @@ import { IconButton } from '@material-ui/core';
 
 //Style
 import styled from "styled-components";
+import ThanksYou from './Pages/ThanksYou';
 
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
+
 
   useEffect(() => {
     document.documentElement.className = theme;
@@ -87,6 +89,10 @@ function App() {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
+          <Route path="/thanks" exact>
+            <ThanksYou />
+          </Route>
+
 
         </Switch>
 

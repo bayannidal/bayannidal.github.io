@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 function PrimaryButton({ title, link }) {
 	return (
-		<PrimaryButtonStyle href={link} target="_blank">
+		<PrimaryButtonStyle href={link} target="_blank" type='submit'>
 			{title}
 		</PrimaryButtonStyle>
 	)

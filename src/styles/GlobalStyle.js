@@ -67,7 +67,7 @@ const GlobalStyle = createGlobalStyle`
 body {
     background-color: var(--background-dark-color);
     color: var(--font-light-color);
-
+position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -151,12 +151,10 @@ header {
 //Nav Toggle
 
 .nav-toggle {
-    /* width: 100%; */
     z-index: 99;
     transform: translateY(0);
-    transform: translateX(-50%);
-
-}
+    left: 5%;
+    
 
 .ham-burger-menu {
     display: none;

@@ -17,31 +17,32 @@ function ContactPage() {
             <Title title={'Contact'} span={'contact'} />
             <InnerLayout className={'contact-section'}>
                 <div className="left-content">
-                    <form className='form'>
+                    <form className='form' action="https://formsubmit.co/bayannidal13@gmail.com" method="POST">
                         <div className="contact-title">
                             <h4>Get in touch</h4>
                         </div>
                         <div className="form-field">
-                            <label htmlFor="name" id='name'>Name: </label>
-                            <input type="text" id='name' />
+                            <label htmlFor="name" id='name' required>Name: </label>
+                            <input type="text" name='name' id='name' />
                         </div>
                         <div className="form-field">
                             <label htmlFor="email" id='email'>E-mail: </label>
-                            <input type="text" id='email' />
+                            <input type="email" name='name' id='email' required />
                         </div>
-                        <div className="form-field">
-                            <label htmlFor="subject" id='subject'>Subject: </label>
-                            <input type="text" id='subject' />
-                        </div>
-                        <div className="text-area">
+                        <div className="text-area" >
                             <label htmlFor="text-area">Enter your Message: </label>
-                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                            <textarea name="message" id="textarea" cols="30" rows="10" required></textarea>
                         </div>
+                        <input type="hidden" name="_next" value="https://bayannidal.github.io/react-deploy/#/thanks"></input>
+
                         <div className="form-field">
-                            <PrimaryButton title={'Send'} />
+                            <button type="submit">
+                                <PrimaryButton title={'Send'} />
+                            </button>
                         </div>
                     </form>
                 </div>
+
                 <div className="right-content">
                     <ContactItem
                         icon={phone}
@@ -66,6 +67,11 @@ function ContactPage() {
 const ContactPageStyle = styled.section`
     text-align: center;
     padding: 5rem 1rem;
+    button {
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
     .contact-section {
         display:grid;
         grid-template-columns: repeat(2,1fr);
