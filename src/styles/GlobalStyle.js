@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
-.light-theme {
+ .light-theme {
 
     --primary-color: #E89005;
     --primary-color-light: #057FFF;
@@ -54,7 +54,7 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
     font-size: 1.2rem;
-    
+
 }
 
 @media screen and (max-width:500px) {
@@ -116,18 +116,20 @@ h6 {
 .light-dark-mode {
   position: fixed;
   right: 0;
-  top: 5%;
   width: 6.5rem;
   height: 2.5rem;
   z-index: 99;
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 2%;
+ 
   svg {
    display: flex;
    align-items: center;
    font-size: 1.7rem;
    color: var(--white-color);
+   margin-top:8px;
 
    }
 }
@@ -136,11 +138,13 @@ h6 {
     align-items: center;
     justify-content: space-between;
     z-index: 99;
+
 }
 .tsparticles-canvas-el {
     z-index: -1;
 }
 header {
+
   position: fixed;
   top: 0;
   left: 0;
@@ -154,7 +158,9 @@ header {
     z-index: 99;
     transform: translateY(0);
     left: 5%;
-    
+
+}
+
 
 .ham-burger-menu {
     display: none;
@@ -166,14 +172,13 @@ header {
 
 @media screen and (max-width:1200px) {
     .ham-burger-menu {
-
     display: block;
 }
 .light-dark-mode {
-    position: relative;
-}
+    top:10px;
 }
 
+} 
 
 `;
 
