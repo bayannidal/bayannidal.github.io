@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-deploy/static/js/main.8b1c7142.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.8b1c7142.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.7ac73d05.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.7ac73d05.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.4990de6f.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.4990de6f.js.map",
     "static/js/2.e835239f.chunk.js": "/react-deploy/static/js/2.e835239f.chunk.js",
@@ -13,10 +13,9 @@
     "static/media/css.3644e608.svg": "/react-deploy/static/media/css.3644e608.svg",
     "static/media/cv.fe9d79b8.pdf": "/react-deploy/static/media/cv.fe9d79b8.pdf",
     "static/media/html.bfe202ac.svg": "/react-deploy/static/media/html.bfe202ac.svg",
-    "static/media/img02.bd33841b.jpg": "/react-deploy/static/media/img02.bd33841b.jpg",
-    "static/media/img03.3ba8dc62.jpg": "/react-deploy/static/media/img03.3ba8dc62.jpg",
-    "static/media/img04.352f27f6.jpg": "/react-deploy/static/media/img04.352f27f6.jpg",
-    "static/media/img05.9d9cca5f.jpg": "/react-deploy/static/media/img05.9d9cca5f.jpg",
+    "static/media/img01.0e7746d5.jpg": "/react-deploy/static/media/img01.0e7746d5.jpg",
+    "static/media/img02.d6803cf1.jpg": "/react-deploy/static/media/img02.d6803cf1.jpg",
+    "static/media/img03.9204c2fd.jpg": "/react-deploy/static/media/img03.9204c2fd.jpg",
     "static/media/js.572dc3f7.svg": "/react-deploy/static/media/js.572dc3f7.svg",
     "static/media/react.2960564a.svg": "/react-deploy/static/media/react.2960564a.svg",
     "static/media/rockpaper.fe603d66.png": "/react-deploy/static/media/rockpaper.fe603d66.png",
@@ -26,6 +25,6 @@
   "entrypoints": [
     "static/js/runtime-main.4990de6f.js",
     "static/js/2.e835239f.chunk.js",
-    "static/js/main.8b1c7142.chunk.js"
+    "static/js/main.7ac73d05.chunk.js"
   ]
 }
