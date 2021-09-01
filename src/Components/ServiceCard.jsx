@@ -17,10 +17,10 @@ function ServiceCard({ image, title, paragraph }) {
 
 const ServiceCardStyle = styled.div`
     background-color: var(--background-dark-grey);
-    border-left: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
-    border-top: 8px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color-2);
+    border-right: 1px solid var(--border-color-2);
+    border-top: 8px solid var(--border-color-2);
+    border-bottom: 1px solid var(--border-color-2);
     border-radius: 10px;
     transition: .4s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -62,7 +62,7 @@ const ServiceCardStyle = styled.div`
            &::after {
                content: '';
                width: 100%;
-               background-color: var(--border-color);
+               background-color: var(--border-color-2);
                height: 3px;
                position: absolute;
                left: 0;

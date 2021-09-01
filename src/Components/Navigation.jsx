@@ -57,7 +57,7 @@ const NavigationStyle = styled.nav`
             width: 100%;
             max-width: 70px;
             margin-top: 9px;
-            border-radius: 50%;
+            border-radius: 30%;
             border:3px solid var(--border-color);
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
@@ -65,7 +65,6 @@ const NavigationStyle = styled.nav`
     }
             img:hover {
                 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-            animation: border-pulsate 2s infinite;
 
     }
 }
@@ -166,12 +165,6 @@ const NavigationStyle = styled.nav`
             text-align: center;
          
     }
-}
-
-            @keyframes border-pulsate {
-            0% { border-color:var(--border-pulsate-opacity-full)}
-            50%  {border-color: var(--subtitle-dark-color)}
-            100% {border-color:var(--border-pulsate-opacity-full)}
 }
 
             `;

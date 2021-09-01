@@ -86,7 +86,11 @@ const ContactPageStyle = styled.section`
         .right-content {
             display: grid;
             grid-template-columns: repeat(1,1fr);
+            width: 100%;
+           
         }
+
+       
         .contact-title {
             h4 {
                 color: var(--white-color);

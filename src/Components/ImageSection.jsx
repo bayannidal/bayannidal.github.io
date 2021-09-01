@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import A from '../img/img04.jpg'
+import A from '../img/img01.jpg'
 import B from '../img/img02.jpg'
-import C from '../img/img05.jpg'
 import D from '../img/img03.jpg'
 import PrimaryButton from './PrimaryButton'
 import cv from '../data/cv.pdf'
@@ -13,14 +12,13 @@ function ImageSection() {
             <div className="left-content">
                 <img src={A} alt="" />
                 <img src={B} alt="" />
-                <img src={C} alt="" />
                 <img src={D} alt="" />
             </div>
             <div className="right-content">
                 <h4>I am, <span>Nidal Bayan</span></h4>
                 <p className="pargraph">
                     As an aspiring Web Developer, everyday I strive to learn something new, something fun, something that is worth it.
-                    I always set new goals to get done challenging myself into a competitive race where I can achive new skills for my career or personal development.
+                    I always set new goals to get done, challenging myself into a competitive race where I can achive new skills for my career and personal development.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -79,8 +77,7 @@ display: flex;
     }
     img:hover {
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-        animation: border-pulsate 2s infinite;
-        border:5px solid var(--border-color);
+        border:3px solid var(--border-color);
 
     }
 }
@@ -139,11 +136,6 @@ display: flex;
     }
   
 
-    @keyframes border-pulsate {
-    0%   { border-color:var(--border-pulsate-opacity-full)}
-    50%  { border-color: var(--subtitle-dark-color)}
-    100% { border-color:var(--border-pulsate-opacity-full)}
-}
 `
 
 export default ImageSection

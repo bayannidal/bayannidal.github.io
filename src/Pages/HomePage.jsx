@@ -14,7 +14,7 @@ function HomePage() {
             </div>
             <div className="typography">
                 <h1> Hi, I'm <span>Nidal Bayan</span></h1>
-                <p>Welcome to my home! Here I present my creativity and presonality.</p>
+                <p>Welcome to my home! Here I present my creativity and personality.</p>
                 <div className="icons">
                     <a href='https://www.linkedin.com/in/nidal-bayan-417481198/' target="_blank" className="icon i-linkedin">
                         <LinkedInIcon />
