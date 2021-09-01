@@ -2,21 +2,22 @@ import React from 'react'
 import styled from 'styled-components'
 import { MainLayout } from '../styles/Layouts'
 function ThanksYou() {
-    return (
-        <ThankYouPageSyle>
-            <MainLayout className="container">
-                Thank you!
-            </MainLayout>
-        </ThankYouPageSyle>
-    )
+  return (
+    <ThankYouPageSyle>
+      <MainLayout className="container">
+        Thank you!
+      </MainLayout>
+    </ThankYouPageSyle>
+  )
 }
 const ThankYouPageSyle = styled.div`
 color: var(--white-color);
+padding: 10rem 0;
+
 .container {
     animation: 1s ease-out 0s 1 slideInFromLeft;
     font-size: 3rem;
     text-align: center;
-
 }
 
 

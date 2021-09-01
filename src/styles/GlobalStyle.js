@@ -151,7 +151,7 @@ h6 {
    align-items: center;
    font-size: 1.7rem;
    color: var(--white-color);
-   margin-top:8px;
+   margin-top:7px;
 
    }
 }
@@ -203,11 +203,13 @@ header {
     display: block;
 }
 .light-dark-mode {
-    top:0;
+    top:5px;
 }
 
 } 
-
+h1,h2,h3,h4,h5,h6 {
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 @media screen and (max-width:450px) {
     h1 {
         font-size: 1.6rem;
