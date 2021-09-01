@@ -66,7 +66,7 @@ function ContactPage() {
 }
 const ContactPageStyle = styled.section`
     text-align: center;
-    padding: 5rem 1rem;
+    padding: 5rem .5rem;
     button {
         background-color: transparent;
         outline: none;
@@ -86,8 +86,6 @@ const ContactPageStyle = styled.section`
         .right-content {
             display: grid;
             grid-template-columns: repeat(1,1fr);
-           
-       
         }
         .contact-title {
             h4 {
@@ -138,8 +136,9 @@ const ContactPageStyle = styled.section`
 
                 }
                 @media screen and (max-width:450px) {
-                 width: 70%;
-                 margin: auto;
+                 width:100%;
+                 margin: 0 auto;
+
             }
         }
     }

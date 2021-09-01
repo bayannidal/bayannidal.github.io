@@ -17,9 +17,10 @@ function ImageSection() {
                 <img src={D} alt="" />
             </div>
             <div className="right-content">
-                <h4>I am <span>Nidal Bayan</span></h4>
+                <h4>I am, <span>Nidal Bayan</span></h4>
                 <p className="pargraph">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nulla similique reiciendis voluptatibus doloremque aperiam ipsam asperiores dignissimos quaerat consequuntur.
+                    As an aspiring Web Developer, everyday I strive to learn something new, something fun, something that is worth it.
+                    I always set new goals to get done challenging myself into a competitive race where I can achive new skills for my career or personal development.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -101,7 +102,7 @@ display: flex;
     .about-info {
         display: flex;
         padding-bottom: 1.4rem;
-    
+
         .info-title {
             padding-right: 3rem;
 

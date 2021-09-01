@@ -23,7 +23,7 @@ const ContactItemStyle = styled.div`
     display: flex;
     align-items: center;
     border-radius: 10px;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 
     &:not(:last-child) {
@@ -35,31 +35,31 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 1.5rem;
+        margin-right: 2rem;
         svg {
             font-size: 2.3rem;
         }
     }
 
     .right-content {
-      
-
+    
         p{
         padding:.1rem 0;
         }
     }
 
     @media screen and (max-width:449px) {
-                width: 85%;
-                margin: auto;
+                width: 100%;
+                padding: 1.2rem 1.5rem;
              .left-content {
                  padding: 0;
                 svg {
                     font-size: 1rem;
                 }
-             }
-          
-              
+             }   
+        }
+    @media screen and (max-width:375px) {
+            width: 100%; 
         }
 `;
 export default ContactItem

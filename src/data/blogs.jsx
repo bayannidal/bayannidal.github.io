@@ -1,43 +1,43 @@
-import blog1 from '../img/blogs/React.jpg'
-import blog2 from '../img/blogs/Angular.png'
-import blog3 from '../img/blogs/Vue.jpeg'
-import blog4 from '../img/blogs/JS.jpg'
+import blog1 from '../img/blogs/spaceship.png'
+import blog2 from '../img/blogs/rockpaper.png'
+import blog3 from '../img/blogs/todo-react.png'
+import blog4 from '../img/blogs/boardgame.png'
 
 
-const blogs = [
+const portofolio = [
     {
         id: 1,
-        title: 'React the easy way!',
+        title: 'Spaceship Game',
         date: '01',
         month: 'April',
         img: blog1,
-        link: 'https://reactjs.org'
+        link: 'https://github.com/bayannidal/SIIT_Nidal_Bayan/tree/main/space-ship'
     },
     {
         id: 2,
-        title: 'Angular the easy way!',
+        title: 'Rock Paper Scissors Game',
         date: '01',
         month: 'April',
         img: blog2,
-        link: 'https://angular.io'
+        link: 'https://github.com/bayannidal/SIIT_Nidal_Bayan/tree/main/06_week/Rock%20Paper%20Scissors'
     },
     {
         id: 3,
-        title: 'Vue the easy way!',
+        title: 'Todo React',
         date: '01',
         month: 'April',
         img: blog3,
-        link: 'https://vuejs.org'
+        link: 'https://github.com/bayannidal/projects/tree/main/todo'
     },
     {
         id: 4,
-        title: 'JS the easy way!',
+        title: 'Board Game',
         date: '01',
         month: 'April',
         img: blog4,
-        link: 'https://www.javascript.com'
+        link: 'https://github.com/bayannidal/SIIT_Nidal_Bayan/tree/main/06_week/Game'
 
     },
 ]
 
-export default blogs;
+export default portofolio;

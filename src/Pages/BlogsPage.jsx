@@ -46,7 +46,7 @@ const BlogsStyle = styled.div`
             border-radius: 10px;
             transition: ease-in-out .4s;
             overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
             &:hover{
                 transform: rotate(-1deg) scale(1.02);

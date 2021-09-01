@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Title({ title, span }) {
     return (
         <TitleStyle>
-            <h2>{title} <span>{span}</span></h2>
+            <h2>{title} </h2>
         </TitleStyle>
     )
 }
@@ -12,7 +12,7 @@ const TitleStyle = styled.div`
 position: relative;
 text-align: center;
 h2 {
- color: var(--white-color);
+ color: var(--title-color);
 font-size: 3rem;
 font-weight: 600;
 text-transform: uppercase;

@@ -55,6 +55,7 @@ position: relative;
     .icons {
         display: flex;
         justify-content: center;
+        margin-top: 1rem;
         .icon {
             border: 2px solid var(--border-color);
             display: flex;

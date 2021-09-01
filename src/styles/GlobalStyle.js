@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
- .light-theme {
+ /* .light-theme {
 
     --primary-color: #E89005;
     --primary-color-light: #057FFF;
@@ -21,28 +21,64 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-    --subtitle-dark-color: rgba(232, 144, 5, .08);
+    --subtitle-dark-color: rgba(232, 144, 5, .04);
     --border-pulsate-opacity-full: rgba(232, 144, 5, 1);
+} */
+
+/* .light-theme {
+
+--primary-color: #E89005;
+--background-dark-color: #F9F8F8;
+--background-dark-grey: #e4e4e4;
+--border-color: #cbced8;
+--background-light-color-2: rgba(232, 144, 5, .2);
+--white-color: #151515;
+--font-light-color: #313131;
+--sidebar-dark-color: #E4E4E4;
+--subtitle-dark-color: rgba(232, 144, 5, .04);
+--border-pulsate-opacity-full: rgba(232, 144, 5, 1);
 }
 
 .dark-theme {
     --primary-color: #007bff;
-    --primary-color-light: #057FFF;
-    --secondary-color: #6c757d;
     --background-dark-color: #10121A;
     --background-dark-grey: #191D2B;
     --border-color: #2e344e;
-    --background-light-color: #F1F1F1;
     --background-light-color-2: rgba(3,127,255,.3);
     --white-color: #FFF;
     --font-light-color: #a4acc4;
-    --font-dark-color: #313131;
     --font-dark-color-2: #151515;
     --sidebar-dark-color: #191D2B;
-    --scrollbar-bg-color: #383838;
-    --scrollbar-thump-color: #6b6b6b;
-    --scrollbar-track-color: #383838;
-    --subtitle-dark-color: rgb(0,123,255, 0.1);
+    --subtitle-dark-color: rgb(0,123,255, 0.04);
+    --border-pulsate-opacity-full: rgba(0,123,255, 1);
+} */
+.light-theme {
+
+--primary-color: #002939;
+--background-dark-color: #e4cfa9;
+--background-dark-grey: #e4e4e4;
+--border-color: #E4E4E4;
+--background-light-color-2: rgba(232, 144, 5, .2);
+--white-color:#157575;
+--title-color: #002939;
+--font-light-color: #313131;
+--sidebar-dark-color: #E4E4E4;
+--subtitle-dark-color: rgba(232, 144, 5, .04);
+--border-pulsate-opacity-full: rgba(232, 144, 5, 1);
+--icons: #e4cfa9;
+}
+
+.dark-theme {
+    --primary-color: #007bff;
+    --background-dark-color: #10121A;
+    --background-dark-grey: #191D2B;
+    --border-color: #2e344e;
+    --background-light-color-2: rgba(3,127,255,.3);
+    --white-color: #FFF;
+    --font-light-color: #a4acc4;
+    --font-dark-color-2: #151515;
+    --sidebar-dark-color: #191D2B;
+    --subtitle-dark-color: rgb(0,123,255, 0.04);
     --border-pulsate-opacity-full: rgba(0,123,255, 1);
 }
 
@@ -70,20 +106,6 @@ body {
 position: relative;
 }
 
-body::-webkit-scrollbar {
-    width: 9px;
-    background-color: #383838;
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #6b6b6b;
-}
-
-body::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #383838;
-}
 
 a {
     font-family: inherit;
@@ -171,15 +193,29 @@ header {
 }
 
 @media screen and (max-width:1200px) {
+    h1 {
+        font-size: 2.5rem;
+        span {
+            font-size: 2.5rem;
+        }
+    }
     .ham-burger-menu {
     display: block;
 }
 .light-dark-mode {
-    top:10px;
+    top:0;
 }
 
 } 
 
+@media screen and (max-width:450px) {
+    h1 {
+        font-size: 1.6rem;
+        span {
+            font-size: 1.6rem;
+        }
+    }
+}
 `;
 
 export default GlobalStyle;

@@ -48,14 +48,15 @@ const NavigationStyle = styled.nav`
             
     
             .avatar {
-            width: 5%;
+            width: 10%;
             text-align: center;
-            margin: 1rem 0 ;
             @media screen and (max-width:1200px) {
                 display: none;
             }
             img {
-            width: 40%;
+            width: 100%;
+            max-width: 70px;
+            margin-top: 9px;
             border-radius: 50%;
             border:3px solid var(--border-color);
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -74,8 +75,14 @@ const NavigationStyle = styled.nav`
             display: flex;
             .active-class {
                 background-color: var(--primary-color);
-                color: var(--white-color);
+                color: var(--icons);
                 border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                &:hover::before {
+                width: 0%;
+                height: 0%;
+                transition: none;
+            }
 
         }
             li {
@@ -91,8 +98,8 @@ const NavigationStyle = styled.nav`
             font-weight: 600;
             transition: ease-in-out 0.4s all;
             @media screen and (max-width:750px) {
-            padding: 0.45rem 1rem;
-            margin: 0 1rem;
+            padding: 0.45rem .9rem;
+            margin: 0 .9rem;
               
 
             @media screen and (max-width:489px) {
@@ -104,16 +111,17 @@ const NavigationStyle = styled.nav`
             }
             
             @media screen and (max-width:427px) {
-            padding: 0.45rem .4rem;
-            margin: 0 .4rem;
+            padding: 0.45rem .5rem;
+            margin: 0 .5rem;
                 
             }
-            letter-spacing: 1px;
             &:hover {
                 cursor: pointer;
-                }
+            color: var(--icons);
+
+            }
             &::before {
-                content: '';
+            content: '';
             position: absolute;
             bottom: 0;
             right: 0;
@@ -121,14 +129,17 @@ const NavigationStyle = styled.nav`
             height: 50%;
             background-color: var(--primary-color);
             transition: all 0.4s cubic-bezier(.63,-0.04,.23,.95);
+
             z-index: -1;
-                border-radius: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
                     
                 }
             }
             a:hover::before {
                 width: 100%;
-            height: 100%;
+                height: 100%;
             }
         }
 
@@ -151,7 +162,7 @@ const NavigationStyle = styled.nav`
             }
             p {
             padding: 2rem 1rem;
-            font-size: .9rem;
+            font-size: .6rem;
             text-align: center;
          
     }

@@ -12,6 +12,7 @@ function Sidebar({ navToggle }) {
 
 const SidebarStyle = styled.div`
 width: 90%;
+min-height:90px;
 position: fixed;
 height: 10vh;
 background-color: var(--sidebar-dark-color);
@@ -24,9 +25,7 @@ border-radius: 30px;
 z-index: 99;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 max-height: 100px;
-&:hover {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
+
 
 @media screen and (max-width:1200px) {
     transform: translateY( 150%);

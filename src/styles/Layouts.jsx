@@ -13,5 +13,7 @@ padding: 5rem;
 `;
 export const InnerLayout = styled.div`
 padding: 5rem 0;
-
+@media screen and (max-width: 400px){
+        padding: 2rem 0;
+    }
 `;
