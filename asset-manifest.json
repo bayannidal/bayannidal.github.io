@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.js": "/react-deploy/static/js/main.0239ffb8.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.0239ffb8.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.6058ba89.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.6058ba89.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.4990de6f.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.4990de6f.js.map",
     "static/js/2.e835239f.chunk.js": "/react-deploy/static/js/2.e835239f.chunk.js",
     "static/js/2.e835239f.chunk.js.map": "/react-deploy/static/js/2.e835239f.chunk.js.map",
     "index.html": "/react-deploy/index.html",
     "static/js/2.e835239f.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.e835239f.chunk.js.LICENSE.txt",
-    "static/media/Angular.ff43dec6.png": "/react-deploy/static/media/Angular.ff43dec6.png",
-    "static/media/JS.37683312.jpg": "/react-deploy/static/media/JS.37683312.jpg",
-    "static/media/React.da790228.jpg": "/react-deploy/static/media/React.da790228.jpg",
-    "static/media/Vue.cd186b35.jpeg": "/react-deploy/static/media/Vue.cd186b35.jpeg",
     "static/media/avatar.746613a8.jpg": "/react-deploy/static/media/avatar.746613a8.jpg",
+    "static/media/boardgame.c6db7fbc.png": "/react-deploy/static/media/boardgame.c6db7fbc.png",
     "static/media/css.3644e608.svg": "/react-deploy/static/media/css.3644e608.svg",
     "static/media/cv.fe9d79b8.pdf": "/react-deploy/static/media/cv.fe9d79b8.pdf",
     "static/media/html.bfe202ac.svg": "/react-deploy/static/media/html.bfe202ac.svg",
@@ -21,11 +18,14 @@
     "static/media/img04.352f27f6.jpg": "/react-deploy/static/media/img04.352f27f6.jpg",
     "static/media/img05.9d9cca5f.jpg": "/react-deploy/static/media/img05.9d9cca5f.jpg",
     "static/media/js.572dc3f7.svg": "/react-deploy/static/media/js.572dc3f7.svg",
-    "static/media/react.2960564a.svg": "/react-deploy/static/media/react.2960564a.svg"
+    "static/media/react.2960564a.svg": "/react-deploy/static/media/react.2960564a.svg",
+    "static/media/rockpaper.fe603d66.png": "/react-deploy/static/media/rockpaper.fe603d66.png",
+    "static/media/spaceship.6717d8c7.png": "/react-deploy/static/media/spaceship.6717d8c7.png",
+    "static/media/todo-react.dfad5835.png": "/react-deploy/static/media/todo-react.dfad5835.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4990de6f.js",
     "static/js/2.e835239f.chunk.js",
-    "static/js/main.0239ffb8.chunk.js"
+    "static/js/main.6058ba89.chunk.js"
   ]
 }
