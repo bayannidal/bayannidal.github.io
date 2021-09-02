@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import ContactItem from '../Components/ContactItem'
 import PrimaryButton from '../Components/PrimaryButton'
 import Title from '../Components/Title'
-import { MainLayout, InnerLayout } from '../styles/Layouts'
+import { InnerLayout } from '../styles/Layouts'
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -118,7 +118,7 @@ const ContactPageStyle = styled.section`
                     padding: 0 .5rem;
                 }
                 input {
-                    border: 1px solid var(--border-color);
+                    border: 3px solid var(--border-color);
                     outline: none;
                     background: transparent;
                     height: 50px;
@@ -130,7 +130,7 @@ const ContactPageStyle = styled.section`
             }
             textarea   {
                     background-color: transparent;
-                    border: 1px solid var(--border-color);
+                    border: 3px solid var(--border-color);
                     outline: none;
                     border-radius: 10px;
                     color: inherit;

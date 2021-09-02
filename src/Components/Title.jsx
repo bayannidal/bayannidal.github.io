@@ -23,30 +23,9 @@ padding-bottom: .1rem;
     }
 @media screen and (max-width: 370px) {
         font-size: 1.8rem;
+
     }
-/* &::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 7.1rem;
-    height: .33rem;
-    background-color: var(--background-light-color-2);
-    border-radius: 15px;
-    left:0;
-}
 
-&::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 3.5rem;
-    height: .33rem;
-    background-color: var(--primary-color);
-    border-radius: 15px;
-    left: 0;
-    opacity: .8;
-
-} */
 span {
     font-weight: 900;
     color: var( --subtitle-dark-color);

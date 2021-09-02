@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Particle from '../Components/Particle'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -8,28 +7,22 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 function HomePage() {
     return (
         <HomePageStyle>
-
-            <div className="p-particles-js">
-                {/* <Particle /> */}
-            </div>
             <div className="typography">
                 <h1> Hi, I'm <span>Nidal Bayan</span></h1>
                 <p>Welcome to my home! Here I present my creativity and personality.</p>
                 <div className="icons">
-                    <a href='https://www.linkedin.com/in/nidal-bayan-417481198/' target="_blank" className="icon i-linkedin">
+                    <a href='https://www.linkedin.com/in/nidal-bayan-417481198/' rel="noreferrer" target="_blank" className="icon i-linkedin">
                         <LinkedInIcon />
                     </a >
-                    <a href='https://www.instagram.com/bayannidal/' target="_blank" className="icon i-instagram">
+                    <a href='https://www.instagram.com/bayannidal/' rel="noreferrer" target="_blank" className="icon i-instagram">
                         <InstagramIcon />
                     </a >
-                    <a href='https://github.com/bayannidal' target="_blank" className="icon i-github">
+                    <a href='https://github.com/bayannidal' rel="noreferrer" target="_blank" className="icon i-github">
                         <GitHubIcon />
                     </a >
                 </div>
             </div>
-
         </HomePageStyle>
-
     )
 }
 const HomePageStyle = styled.div`
