@@ -13,8 +13,10 @@ function Skills() {
                     <ProgressBar title={'HTML5'} width={'80%'} text={'80%'} />
                     <ProgressBar title={'CSS3'} width={'75%'} text={'75%'} />
                     <ProgressBar title={'JAVASCRIPT'} width={'65%'} text={'65%'} />
-                    <ProgressBar title={'JAVA'} width={'30%'} text={'30%'} />
                     <ProgressBar title={'REACT JS'} width={'60%'} text={'60%'} />
+                    <ProgressBar title={'REACT NATIVE'} width={'40%'} text={'40%'} />
+                    <ProgressBar title={'JAVA'} width={'30%'} text={'30%'} />
+
                 </div>
             </InnerLayout>
         </SkillsStyle>

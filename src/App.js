@@ -17,14 +17,19 @@ import { IconButton } from '@material-ui/core';
 //Style
 import styled from "styled-components";
 import ThanksYou from './Pages/ThanksYou';
+function setThemeFromLocalStorage() {
+  if (localStorage.getItem('theme') != null) {
+    return localStorage.getItem('theme')
+  }
+  return 'light-theme';
+}
 
 
 function App() {
 
-  const [theme, setTheme] = useState('light-theme');
+  const [theme, setTheme] = useState(setThemeFromLocalStorage());
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
-
 
   useEffect(() => {
     document.documentElement.className = theme;
@@ -35,10 +40,12 @@ function App() {
     if (theme === 'light-theme') {
       setTheme('dark-theme')
       setChecked(false)
+      localStorage.setItem('theme', 'dark-theme')
     }
     else {
       setTheme('light-theme')
       setChecked(true)
+      localStorage.setItem('theme', 'light-theme')
     }
   }
 
