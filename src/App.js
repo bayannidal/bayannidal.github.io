@@ -24,11 +24,18 @@ function setThemeFromLocalStorage() {
   return 'light-theme';
 }
 
+function setInputChecked() {
+  if (localStorage.getItem('theme') === 'light-theme') {
+    return true;
+  }
+  return false;
+}
+
 
 function App() {
 
   const [theme, setTheme] = useState(setThemeFromLocalStorage());
-  const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(setInputChecked());
   const [navToggle, setNavToggle] = useState(false);
 
   useEffect(() => {
@@ -74,6 +81,7 @@ function App() {
                 onClick={themeToggler}
                 inputProps={{ 'aria-label': '' }}
                 size='medium'
+                style={{ transition: 'ease-in-out .3s' }}
               />
             </div>
           </div>
@@ -116,6 +124,7 @@ min-height: 100vh;
 @media screen and (max-width:1200px) {
     margin-left: 0;
 }
+
 
 `;
 export default App;

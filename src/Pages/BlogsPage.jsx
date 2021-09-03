@@ -7,7 +7,7 @@ function BlogsPage() {
     return (
         <MainLayout>
             <BlogsStyle>
-                <Title title={'Blogs'} span={'blogs'} />
+                <Title title={'Portofolio'} span={'portofolio'} />
                 <InnerLayout className={'blog'}>
                     {blogs.map(blog => {
                         return <a href={blog.link} key={blog.id} target="_blank" rel="noreferrer" className={'blog-item'}>
@@ -37,7 +37,7 @@ const BlogsStyle = styled.div`
 
         }
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-column-gap: 2rem;
         grid-row-gap: 3rem;
         .blog-item {
