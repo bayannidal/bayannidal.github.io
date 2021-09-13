@@ -148,3 +148,15 @@ const ContactPageStyle = styled.section`
     }
 `;
 export default ContactPage
+
+
+function numbers(a, b) {
+
+    return function sum() {
+        return a + b;
+    }
+}
+
+const sum = numbers(1, 2);
+
+console.log(sum());

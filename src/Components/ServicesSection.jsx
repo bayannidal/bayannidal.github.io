@@ -14,10 +14,10 @@ function ServicesSection() {
             <ServicesSectionStyle>
                 <Title title={'Services'} span={'services'}></Title>
                 <div className="services">
-                    <ServiceCard image={js} title={'JS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
-                    <ServiceCard image={css} title={'CSS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
-                    <ServiceCard image={html} title={'HTML'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
-                    <ServiceCard image={react} title={'REACT JS'} paragraph={'Lorem ipsum dolor sit amet consecteur adis'} />
+                    <ServiceCard image={js} title={'JS'} paragraph={''} />
+                    <ServiceCard image={css} title={'CSS'} paragraph={''} />
+                    <ServiceCard image={html} title={'HTML'} paragraph={''} />
+                    <ServiceCard image={react} title={'REACT JS'} paragraph={''} />
 
                 </div>
 

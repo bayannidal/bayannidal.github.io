@@ -122,7 +122,8 @@ const MainContentStyle = styled.main`
 position: relative;
 min-height: 100vh;
 @media screen and (max-width:1200px) {
-    margin-left: 0;
+    padding-bottom: 2.5rem;
+
 }
 
 
