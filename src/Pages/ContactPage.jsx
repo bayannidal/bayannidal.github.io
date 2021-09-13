@@ -33,7 +33,7 @@ function ContactPage() {
                             <label htmlFor="text-area">Enter your Message: </label>
                             <textarea name="message" id="textarea" cols="30" rows="10" required></textarea>
                         </div>
-                        <input type="hidden" name="_next" value="https://bayannidal.github.io/react-deploy/#/thanks"></input>
+                        <input type="hidden" name="_next" value="https://bayannidal.github.io/#/thanks"></input>
 
                         <div className="form-field">
                             <button type="submit">
