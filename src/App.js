@@ -48,11 +48,15 @@ function App() {
       setTheme('dark-theme')
       setChecked(false)
       localStorage.setItem('theme', 'dark-theme')
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#3A4531')
+
     }
     else {
       setTheme('light-theme')
       setChecked(true)
       localStorage.setItem('theme', 'light-theme')
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#157575')
+
     }
   }
 
