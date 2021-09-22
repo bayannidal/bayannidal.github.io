@@ -55,7 +55,7 @@ function App() {
       setTheme('light-theme')
       setChecked(true)
       localStorage.setItem('theme', 'light-theme')
-      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#FFEECA')
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#e4cfa9')
 
     }
   }
